@@ -19,7 +19,7 @@ class StringLetter
      * @return string
      * @throws \Exception
      */
-    public function first($str='',$type=false){
+    public static function first($str='',$type=false){
         $str = trim($str);
         if(empty($str)) return '';
         $fistStr = mb_substr( $str, 0, 1);
