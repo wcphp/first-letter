@@ -1,0 +1,17 @@
+{
+    "name": "wcphp/wc-tools",
+    "description": "PHP常用工具类",
+    "type": "library",
+    "authors": [
+        {
+            "name": "iweika",
+            "email": "iweika@wcphp.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {"WcTools\\": "src"}
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
